@@ -1,0 +1,15 @@
+#define CONFIG_EXAMPLES_DIR "Bumblebee/A1Combo"
+#define MOTHERBOARD BOARD_BTT_SKR_MINI_E3_V2_0  // your plate
+
+#define SERIAL_PORT 1
+#define BAUDRATE 115200
+
+#define CUSTOM_MACHINE_NAME "Bumblebee A1 Combo"
+
+#define X_DRIVER_TYPE  A4988
+#define Y_DRIVER_TYPE  A4988
+#define Z_DRIVER_TYPE  A4988
+#define E0_DRIVER_TYPE A4988
+
+#define TEMP_SENSOR_0 1
+#define TEMP_SENSOR_BED 1
